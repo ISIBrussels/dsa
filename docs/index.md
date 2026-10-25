@@ -10,7 +10,7 @@ Vous y trouverez l'ensemble des ressources pédagogiques du cours :
 <!-- sépare les deux listes (sinon Markdown les fusionne) -->
 
 - **Format** : 14 séances de 3 h (42 h), Python
-- **Évaluation** : examen oral type entretien technique (25 min, un exercice tiré d'une banque)
+- **Évaluation** : examen oral façon question technique de *coding interview* (25 min, un exercice tiré d'une banque)
 
 ## Tableau des séances
 
