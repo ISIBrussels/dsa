@@ -2,14 +2,15 @@
 
 Bienvenue. Ce site est destiné aux étudiants de l'activité d'apprentissage **Algorithmique & Structure de Données** (DSA) du **Master 1 Info** à l'**ISIB** (HE2B).
 
-Vous y trouverez :
+Vous y trouverez l'ensemble des ressources pédagogiques du cours :
 
-- les **slides de cours**
-- des **quiz** de vérification
-- des **énoncés d'exercices**
+- les **slides de cours** et des **quiz**
+- les **énoncés d'exercices**
 
-**Format** : 14 séances de 3 h (42 h), Python.  
-**Examen** : oral type entretien technique (25 min, un exercice tiré d'une banque).
+<!-- sépare les deux listes (sinon Markdown les fusionne) -->
+
+- **Format** : 14 séances de 3 h (42 h), Python
+- **Évaluation** : examen oral type entretien technique (25 min, un exercice tiré d'une banque)
 
 ## Tableau des séances
 
@@ -29,11 +30,5 @@ Vous y trouverez :
 | 12 | Programmation dynamique (1/2) | [Cours](seances/12/cours_seance_12.md) | [Quiz](seances/12/quiz_seance_12.html) | [Exercices](seances/12/exercices_seance_12.md) |
 | 13 | Programmation dynamique (2/2), glouton, backtracking | [Cours](seances/13/cours_seance_13.md) | [Quiz](seances/13/quiz_seance_13.html) | [Exercices](seances/13/exercices_seance_13.md) |
 | 14 | Synthèse et Problem Solving libre | [Cours](seances/14/cours_seance_14.md) | [Quiz](seances/14/quiz_seance_14.html) | [Exercices](seances/14/exercices_seance_14.md) |
-
-## Modalités d'évaluation
-
-- **Examen final oral** : 25 minutes par étudiant, entretien technique au tableau blanc ou éditeur partagé sans autocomplétion.
-- Tirage au sort d'un problème dans une banque connue (3 niveaux de complexité).
-- Grille : communication et clarification (4), analyse de complexité (4), qualité du code Python (6), tests et cas limites (3), réactivité aux variantes (3).
 
 <footer class="site-footer"><a href="mailto:shuraux@he2b.be">Sylvain Huraux - HE2B - ISIB</a></footer>
