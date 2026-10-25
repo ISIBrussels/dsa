@@ -11,8 +11,6 @@ Vous y trouverez :
 **Format** : 14 séances de 3 h (42 h), Python.  
 **Examen** : oral type entretien technique (25 min, un exercice tiré d'une banque).
 
-Fil rouge du cours : la **méthode d'entretien** (clarification, exemples, naïf, optimisation, implémentation, validation, bilan).
-
 ## Tableau des séances
 
 | Séance | Thème | Cours | Quiz | Exercices |
