@@ -25,8 +25,12 @@ Sources : `labo-info-pass` (`AGENTS.md`), commits / templates de `labo-tech-info
 
 11. **Pas de tirets cadratins « IA » dans la prose** des slides (séparateurs de propositions) — préférer virgules / parenthèses / points-virgules ; garder `—` dans titres / headers / plages numériques.
 
+## Terminologie (strict)
+
+12. **Franglais CS / industrie** — garder en **anglais** les termes techniques informatiques et d'industrie dans la prose française (titres, thèmes, objectifs, exemples) : *heap*, *queue*, *stack*, *linked list*, *sliding window*, *coding interview*, *Two Sum*, *BFS* / *DFS*, *dynamic programming*, *greedy*, *topological sort*, *shortest paths*, *hash table*, etc. Italique à la manière des siblings (`tech-info-1`) quand le terme est enchâssé dans une phrase française. **Garder le français** pour le cadrage pédagogique : séance, objectifs, consignes, structure d'évaluation, formulations de cours. Ne pas retraduire un terme anglais déjà installé.
+
 ## Nommage des fichiers
 
-12. **Fichiers** : `cours_seance_NN.md`, `exercices_seance_NN.md`, `quiz_seance_NN.html` (underscores, pas de tiret long dans le nom de fichier). Les tirets longs (`—`) sont réservés aux **titres de pages** et en-têtes Marp.
+13. **Fichiers** : `cours_seance_NN.md`, `exercices_seance_NN.md`, `quiz_seance_NN.html` (underscores, pas de tiret long dans le nom de fichier). Les tirets longs (`—`) sont réservés aux **titres de pages** et en-têtes Marp.
 
-Tout nouveau `quiz_seance_*.html` / page générée doit respecter 1–7 et 12 ; 8–11 dès qu'on écrit du contenu pédagogique.
+Tout nouveau `quiz_seance_*.html` / page générée doit respecter 1–7, 12 et 13 ; 8–11 dès qu'on écrit du contenu pédagogique.

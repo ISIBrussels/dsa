@@ -1,6 +1,6 @@
 # Séance 10 — Exercices
 
-**Thème :** Tri topologique et Union-Find  
+**Thème :** *Topological sort* et Union-Find  
 **Langage :** Python  
 **Méthode :** Clarification → Exemples → Naïf → Optimisation → Implémentation → Validation → Bilan
 

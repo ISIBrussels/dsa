@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: dsa
-title: "Séance 1 — Complexité, méthode d'entretien, tableaux et hash"
+title: "Séance 1 — Complexité, méthode *coding interview*, tableaux et *hash*"
 paginate: true
 header: "DSA — Séance 1 [Sylvain Huraux - HE2B - ISIB](mailto:shuraux@he2b.be)"
 footer: "[← Retour à l'accueil](../../index.html)"
@@ -9,7 +9,7 @@ footer: "[← Retour à l'accueil](../../index.html)"
 
 ## Séance 1
 
-Complexité, méthode d'entretien, tableaux et hash
+Complexité, méthode *coding interview*, tableaux et *hash*
 
 Bloc : Fondations
 
@@ -23,7 +23,7 @@ Bloc : Fondations
 - Pourquoi la complexité : modèle de coût RAM, notations $O$, $\Omega$, $\Theta$.
 - Analyse de boucles simples et imbriquées.
 - Complexité amortie (cas du redimensionnement de `list.append`).
-- Table de hachage : principe, collisions, coût moyen vs pire cas.
+- *Hash table* : principe, collisions, coût moyen vs pire cas.
 - Coûts cachés en Python (`pop(0)`, `x in list`, concaténations `s += ...`).
 
 ---
@@ -44,7 +44,7 @@ Appliquée systématiquement à chaque exercice du cours :
 
 ## Démo live
 
-Two Sum (du brute force $O(n^2)$ à la table de hachage $O(n)$).
+Two Sum (du brute force $O(n^2)$ à la *hash table* $O(n)$).
 
 ---
 

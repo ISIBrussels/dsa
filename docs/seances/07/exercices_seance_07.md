@@ -1,6 +1,6 @@
 # Séance 7 — Exercices
 
-**Thème :** Arbres binaires de recherche (BST) et équilibrage  
+**Thème :** *BST* et équilibrage  
 **Langage :** Python  
 **Méthode :** Clarification → Exemples → Naïf → Optimisation → Implémentation → Validation → Bilan
 

@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: dsa
-title: "Séance 11 — Plus courts chemins"
+title: "Séance 11 — *Shortest paths*"
 paginate: true
 header: "DSA — Séance 11 [Sylvain Huraux - HE2B - ISIB](mailto:shuraux@he2b.be)"
 footer: "[← Retour à l'accueil](../../index.html)"
@@ -9,7 +9,7 @@ footer: "[← Retour à l'accueil](../../index.html)"
 
 ## Séance 11
 
-Plus courts chemins
+*Shortest paths*
 
 Bloc : Graphes
 

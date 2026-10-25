@@ -1,6 +1,6 @@
 # Séance 2 — Exercices
 
-**Thème :** Récursivité et diviser pour régner  
+**Thème :** Récursivité et *divide and conquer*  
 **Langage :** Python  
 **Méthode :** Clarification → Exemples → Naïf → Optimisation → Implémentation → Validation → Bilan
 

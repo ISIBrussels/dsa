@@ -1,6 +1,6 @@
 # Séance 5 — Exercices
 
-**Thème :** Tris et recherche avancée  
+**Thème :** *Sorting* et recherche avancée  
 **Langage :** Python  
 **Méthode :** Clarification → Exemples → Naïf → Optimisation → Implémentation → Validation → Bilan
 

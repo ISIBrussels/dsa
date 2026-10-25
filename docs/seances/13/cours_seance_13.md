@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: dsa
-title: "Séance 13 — Programmation dynamique (2/2), glouton, backtracking"
+title: "Séance 13 — *Dynamic programming* (2/2), *greedy*, backtracking"
 paginate: true
 header: "DSA — Séance 13 [Sylvain Huraux - HE2B - ISIB](mailto:shuraux@he2b.be)"
 footer: "[← Retour à l'accueil](../../index.html)"
@@ -9,7 +9,7 @@ footer: "[← Retour à l'accueil](../../index.html)"
 
 ## Séance 13
 
-Programmation dynamique (2/2), glouton, backtracking
+*Dynamic programming* (2/2), *greedy*, backtracking
 
 Bloc : Paradigmes et synthèse
 
@@ -21,7 +21,7 @@ Bloc : Paradigmes et synthèse
 ## Objectifs de la séance
 
 - DP 2D : grilles, alignement de chaînes, sous-suites communes.
-- Algorithmes gloutons : choix localement optimal, argument d'échange, contre-exemples classiques.
+- Algorithmes *greedy* : choix localement optimal, argument d'échange, contre-exemples classiques.
 - Backtracking approfondi : espace d'états, branches, techniques d'élagage (pruning).
 
 ---

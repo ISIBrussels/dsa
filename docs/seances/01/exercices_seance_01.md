@@ -1,6 +1,6 @@
 # Séance 1 — Exercices
 
-**Thème :** Complexité, méthode d'entretien, tableaux et hash  
+**Thème :** Complexité, méthode *coding interview*, tableaux et *hash*  
 **Langage :** Python  
 **Méthode :** Clarification → Exemples → Naïf → Optimisation → Implémentation → Validation → Bilan
 

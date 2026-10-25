@@ -1,6 +1,6 @@
 # Séance 11 — Exercices
 
-**Thème :** Plus courts chemins  
+**Thème :** *Shortest paths*  
 **Langage :** Python  
 **Méthode :** Clarification → Exemples → Naïf → Optimisation → Implémentation → Validation → Bilan
 

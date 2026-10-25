@@ -1,6 +1,6 @@
 # Séance 4 — Exercices
 
-**Thème :** Listes chaînées, piles, files  
+**Thème :** *Linked lists*, *stacks*, *queues*  
 **Langage :** Python  
 **Méthode :** Clarification → Exemples → Naïf → Optimisation → Implémentation → Validation → Bilan
 

@@ -1,6 +1,6 @@
 # Séance 14 — Exercices
 
-**Thème :** Synthèse et Problem Solving libre  
+**Thème :** Synthèse et *Problem Solving* libre  
 **Langage :** Python  
 **Méthode :** Clarification → Exemples → Naïf → Optimisation → Implémentation → Validation → Bilan
 

@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: dsa
-title: "Séance 7 — Arbres binaires de recherche (BST) et équilibrage"
+title: "Séance 7 — *BST* et équilibrage"
 paginate: true
 header: "DSA — Séance 7 [Sylvain Huraux - HE2B - ISIB](mailto:shuraux@he2b.be)"
 footer: "[← Retour à l'accueil](../../index.html)"
@@ -9,9 +9,9 @@ footer: "[← Retour à l'accueil](../../index.html)"
 
 ## Séance 7
 
-Arbres binaires de recherche (BST) et équilibrage
+*BST* et équilibrage
 
-Bloc : Arbres et tas
+Bloc : Arbres et *heaps*
 
 [→ Quiz](quiz_seance_07.html)
 [→ Exercices](exercices_seance_07.html)

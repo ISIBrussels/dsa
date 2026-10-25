@@ -1,6 +1,6 @@
 # Séance 6 — Exercices
 
-**Thème :** Arbres binaires et parcours  
+**Thème :** *Binary trees* et parcours  
 **Langage :** Python  
 **Méthode :** Clarification → Exemples → Naïf → Optimisation → Implémentation → Validation → Bilan
 

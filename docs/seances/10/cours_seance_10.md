@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: dsa
-title: "Séance 10 — Tri topologique et Union-Find"
+title: "Séance 10 — *Topological sort* et Union-Find"
 paginate: true
 header: "DSA — Séance 10 [Sylvain Huraux - HE2B - ISIB](mailto:shuraux@he2b.be)"
 footer: "[← Retour à l'accueil](../../index.html)"
@@ -9,7 +9,7 @@ footer: "[← Retour à l'accueil](../../index.html)"
 
 ## Séance 10
 
-Tri topologique et Union-Find
+*Topological sort* et Union-Find
 
 Bloc : Graphes
 
@@ -21,7 +21,7 @@ Bloc : Graphes
 ## Objectifs de la séance
 
 - Graphes acycliques orientés (DAG) et ordonnancement de tâches.
-- Tri topologique : DFS post-ordre inversé et algorithme de Kahn (degrés entrants).
+- *Topological sort* : DFS post-ordre inversé et algorithme de Kahn (degrés entrants).
 - Structure Disjoint-Set (Union-Find) : compression de chemin et union par rang/taille.
 
 ---

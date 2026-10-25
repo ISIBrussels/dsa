@@ -1,6 +1,6 @@
 # Séance 13 — Exercices
 
-**Thème :** Programmation dynamique (2/2), glouton, backtracking  
+**Thème :** *Dynamic programming* (2/2), *greedy*, backtracking  
 **Langage :** Python  
 **Méthode :** Clarification → Exemples → Naïf → Optimisation → Implémentation → Validation → Bilan
 

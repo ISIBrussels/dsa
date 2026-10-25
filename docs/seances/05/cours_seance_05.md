@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: dsa
-title: "Séance 5 — Tris et recherche avancée"
+title: "Séance 5 — *Sorting* et recherche avancée"
 paginate: true
 header: "DSA — Séance 5 [Sylvain Huraux - HE2B - ISIB](mailto:shuraux@he2b.be)"
 footer: "[← Retour à l'accueil](../../index.html)"
@@ -9,7 +9,7 @@ footer: "[← Retour à l'accueil](../../index.html)"
 
 ## Séance 5
 
-Tris et recherche avancée
+*Sorting* et recherche avancée
 
 Bloc : Structures linéaires et patterns
 

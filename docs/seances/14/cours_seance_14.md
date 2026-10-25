@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: dsa
-title: "Séance 14 — Synthèse et Problem Solving libre"
+title: "Séance 14 — Synthèse et *Problem Solving* libre"
 paginate: true
 header: "DSA — Séance 14 [Sylvain Huraux - HE2B - ISIB](mailto:shuraux@he2b.be)"
 footer: "[← Retour à l'accueil](../../index.html)"
@@ -9,7 +9,7 @@ footer: "[← Retour à l'accueil](../../index.html)"
 
 ## Séance 14
 
-Synthèse et Problem Solving libre
+Synthèse et *Problem Solving* libre
 
 Bloc : Paradigmes et synthèse
 
@@ -22,12 +22,12 @@ Bloc : Paradigmes et synthèse
 
 - Grille de lecture « Signaux de l'énoncé → Famille d'algorithmes ».
 - Sous-tableau contigu / somme de plage → Sliding Window, Prefix Sums.
-- Plus court chemin / coût minimum → BFS, Dijkstra.
+- *Shortest path* / coût minimum → BFS, Dijkstra.
 - $K$ éléments extrêmes → Heap, Quickselect.
 - Nombre de combinaisons / optimisation séquentielle → DP.
 - Toutes les configurations possibles → Backtracking.
 - Tableau récapitulatif des complexités fondamentales.
-- Pièges classiques et gestion du stress en entretien technique.
+- Pièges classiques et gestion du stress en *coding interview*.
 
 ---
 

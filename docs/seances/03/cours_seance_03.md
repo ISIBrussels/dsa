@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: dsa
-title: "Séance 3 — Two pointers, sliding window, prefix sums"
+title: "Séance 3 — *Two pointers*, *sliding window*, *prefix sums*"
 paginate: true
 header: "DSA — Séance 3 [Sylvain Huraux - HE2B - ISIB](mailto:shuraux@he2b.be)"
 footer: "[← Retour à l'accueil](../../index.html)"
@@ -9,7 +9,7 @@ footer: "[← Retour à l'accueil](../../index.html)"
 
 ## Séance 3
 
-Two pointers, sliding window, prefix sums
+*Two pointers*, *sliding window*, *prefix sums*
 
 Bloc : Structures linéaires et patterns
 
@@ -21,7 +21,7 @@ Bloc : Structures linéaires et patterns
 ## Objectifs de la séance
 
 - Identification des signaux : tableau trié, sous-tableau contigu, somme de plage.
-- Fenêtre glissante : taille fixe vs taille dynamique.
+- *Sliding window* : taille fixe vs taille dynamique.
 - Sommes préfixes et dictionnaire d'occurrences des préfixes.
 
 ---

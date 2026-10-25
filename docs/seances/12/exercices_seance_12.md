@@ -1,6 +1,6 @@
 # Séance 12 — Exercices
 
-**Thème :** Programmation dynamique (1/2)  
+**Thème :** *Dynamic programming* (1/2)  
 **Langage :** Python  
 **Méthode :** Clarification → Exemples → Naïf → Optimisation → Implémentation → Validation → Bilan
 

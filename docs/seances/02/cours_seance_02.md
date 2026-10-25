@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: dsa
-title: "Séance 2 — Récursivité et diviser pour régner"
+title: "Séance 2 — Récursivité et *divide and conquer*"
 paginate: true
 header: "DSA — Séance 2 [Sylvain Huraux - HE2B - ISIB](mailto:shuraux@he2b.be)"
 footer: "[← Retour à l'accueil](../../index.html)"
@@ -9,7 +9,7 @@ footer: "[← Retour à l'accueil](../../index.html)"
 
 ## Séance 2
 
-Récursivité et diviser pour régner
+Récursivité et *divide and conquer*
 
 Bloc : Fondations
 
@@ -22,7 +22,7 @@ Bloc : Fondations
 
 - Pile d'appels, condition d'arrêt, limites de récursion (`sys.setrecursionlimit`).
 - Mémoïsation (`functools.lru_cache`).
-- Diviser pour régner, théorème maître (énoncé et utilisation pratique).
+- *Divide and conquer*, théorème maître (énoncé et utilisation pratique).
 - Recherche binaire : invariant de boucle, preuve de terminaison et correction.
 - Introduction au backtracking.
 

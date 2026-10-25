@@ -1,6 +1,6 @@
 # Séance 8 — Exercices
 
-**Thème :** Tas, files de priorité, Tries  
+**Thème :** *Heaps*, *priority queues*, Tries  
 **Langage :** Python  
 **Méthode :** Clarification → Exemples → Naïf → Optimisation → Implémentation → Validation → Bilan
 

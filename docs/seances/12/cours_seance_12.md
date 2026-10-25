@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: dsa
-title: "Séance 12 — Programmation dynamique (1/2)"
+title: "Séance 12 — *Dynamic programming* (1/2)"
 paginate: true
 header: "DSA — Séance 12 [Sylvain Huraux - HE2B - ISIB](mailto:shuraux@he2b.be)"
 footer: "[← Retour à l'accueil](../../index.html)"
@@ -9,7 +9,7 @@ footer: "[← Retour à l'accueil](../../index.html)"
 
 ## Séance 12
 
-Programmation dynamique (1/2)
+*Dynamic programming* (1/2)
 
 Bloc : Paradigmes et synthèse
 

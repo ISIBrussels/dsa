@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: dsa
-title: "Séance 4 — Listes chaînées, piles, files"
+title: "Séance 4 — *Linked lists*, *stacks*, *queues*"
 paginate: true
 header: "DSA — Séance 4 [Sylvain Huraux - HE2B - ISIB](mailto:shuraux@he2b.be)"
 footer: "[← Retour à l'accueil](../../index.html)"
@@ -9,7 +9,7 @@ footer: "[← Retour à l'accueil](../../index.html)"
 
 ## Séance 4
 
-Listes chaînées, piles, files
+*Linked lists*, *stacks*, *queues*
 
 Bloc : Structures linéaires et patterns
 
@@ -22,8 +22,8 @@ Bloc : Structures linéaires et patterns
 
 - Listes simplement et doublement chaînées : manipulation de pointeurs, noeud sentinelle.
 - Algorithme de Floyd (pointeurs lièvre/tortue pour détection de cycle).
-- Piles et files : usages de `collections.deque` vs listes standards.
-- Piles monotones (principe et maintien de l'ordre).
+- *Stacks* et *queues* : usages de `collections.deque` vs listes standards.
+- *Monotonic stacks* (principe et maintien de l'ordre).
 
 ---
 

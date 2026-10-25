@@ -1,6 +1,6 @@
 # Séance 3 — Exercices
 
-**Thème :** Two pointers, sliding window, prefix sums  
+**Thème :** *Two pointers*, *sliding window*, *prefix sums*  
 **Langage :** Python  
 **Méthode :** Clarification → Exemples → Naïf → Optimisation → Implémentation → Validation → Bilan
 

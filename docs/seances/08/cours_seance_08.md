@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: dsa
-title: "Séance 8 — Tas, files de priorité, Tries"
+title: "Séance 8 — *Heaps*, *priority queues*, Tries"
 paginate: true
 header: "DSA — Séance 8 [Sylvain Huraux - HE2B - ISIB](mailto:shuraux@he2b.be)"
 footer: "[← Retour à l'accueil](../../index.html)"
@@ -9,9 +9,9 @@ footer: "[← Retour à l'accueil](../../index.html)"
 
 ## Séance 8
 
-Tas, files de priorité, Tries
+*Heaps*, *priority queues*, Tries
 
-Bloc : Arbres et tas
+Bloc : Arbres et *heaps*
 
 [→ Quiz](quiz_seance_08.html)
 [→ Exercices](exercices_seance_08.html)
@@ -20,7 +20,7 @@ Bloc : Arbres et tas
 
 ## Objectifs de la séance
 
-- Tas binaire : propriété de tas, représentation compacte en tableau.
+- *Binary heap* : propriété de *heap*, représentation compacte en tableau.
 - Construction linéaire en $O(n)$ (`heapify`) vs insertions successives en $O(n \log n)$.
 - Module `heapq` (min-heap natif, inversion de signe pour max-heap).
 - Trie (arbre préfixe) : modélisation, coût par mot, applications à l'autocomplétion.

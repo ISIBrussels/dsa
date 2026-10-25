@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: dsa
-title: "Séance 6 — Arbres binaires et parcours"
+title: "Séance 6 — *Binary trees* et parcours"
 paginate: true
 header: "DSA — Séance 6 [Sylvain Huraux - HE2B - ISIB](mailto:shuraux@he2b.be)"
 footer: "[← Retour à l'accueil](../../index.html)"
@@ -9,9 +9,9 @@ footer: "[← Retour à l'accueil](../../index.html)"
 
 ## Séance 6
 
-Arbres binaires et parcours
+*Binary trees* et parcours
 
-Bloc : Arbres et tas
+Bloc : Arbres et *heaps*
 
 [→ Quiz](quiz_seance_06.html)
 [→ Exercices](exercices_seance_06.html)
@@ -21,8 +21,8 @@ Bloc : Arbres et tas
 ## Objectifs de la séance
 
 - Vocabulaire : arité, profondeur, hauteur, arbres complets/équilibrés.
-- Parcours en profondeur (DFS : préfixe, infixe, postfixe) récursifs et itératifs.
-- Parcours en largeur (BFS par niveau) à l'aide d'une file.
+- *DFS* ( préfixe, infixe, postfixe) récursifs et itératifs.
+- *BFS* (par niveau) à l'aide d'une *queue*.
 - Raisonnement récursif : retour ascendant vs accumulation descendante.
 
 ---
