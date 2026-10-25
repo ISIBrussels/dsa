@@ -1,0 +1,4 @@
+themeSet:
+  - docs/themes
+theme: dsa
+html: true
