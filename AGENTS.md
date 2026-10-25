@@ -12,7 +12,7 @@ Sources : `labo-info-pass` (`AGENTS.md`), commits / templates de `labo-tech-info
 ## Titres Pages (strict)
 
 5. **Onglet exercices** — `Séance N — Exercices` (via `page_title` dans `.github/workflows/deploy.yml`).
-6. **Onglet accueil** — `Algorithmique & Structure de Données — ISIB` (em dash; long course title). Marp `header` keeps short `DSA — Séance N …`.
+6. **Onglet accueil** — `DSA — ISIB` (em dash). Long course title stays in body H1 only. Marp `header` keeps short `DSA — Séance N …`.
 7. **Marp `title` des slides** — `Séance N — <thème>` ; le `header` garde la marque du cours (`DSA — Séance N …`).
 
 ## Contenu quiz (quand on remplit pour de vrai)
