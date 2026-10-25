@@ -1,6 +1,6 @@
-# Algorithmique et Structures de Données (DSA)
+# Algorithmique & Structure de Données
 
-Bienvenue. Ce site est destiné aux étudiants de l'activité d'apprentissage **Algorithmique et Structures de Données** (DSA) du **Master 1 Info** à l'**ISIB** (HE2B).
+Bienvenue. Ce site est destiné aux étudiants de l'activité d'apprentissage **Algorithmique & Structure de Données** (DSA) du **Master 1 Info** à l'**ISIB** (HE2B).
 
 Vous y trouverez :
 

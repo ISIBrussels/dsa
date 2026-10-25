@@ -1,6 +1,6 @@
-# Algorithmique et Structures de Données (DSA)
+# Algorithmique & Structure de Données
 
-Dépôt du cours **Algorithmique et Structures de Données** (DSA, Master 1 Info) à l'ISIB - HE2B.
+Dépôt du cours **Algorithmique & Structure de Données** (DSA, Master 1 Info) à l'ISIB - HE2B.
 
 - **Durée totale** : 42 h
 - **Organisation** : 14 séances de 3 h
