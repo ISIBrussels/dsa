@@ -29,6 +29,6 @@ Vous y trouverez l'ensemble des ressources pédagogiques du cours :
 | 11 | *Shortest paths* | [Cours](seances/11/cours_seance_11.md) | [Quiz](seances/11/quiz_seance_11.html) | [Exercices](seances/11/exercices_seance_11.md) |
 | 12 | *Dynamic programming* (1/2) | [Cours](seances/12/cours_seance_12.md) | [Quiz](seances/12/quiz_seance_12.html) | [Exercices](seances/12/exercices_seance_12.md) |
 | 13 | *Dynamic programming* (2/2), *greedy*, backtracking | [Cours](seances/13/cours_seance_13.md) | [Quiz](seances/13/quiz_seance_13.html) | [Exercices](seances/13/exercices_seance_13.md) |
-| 14 | Synthèse et *Problem Solving* libre | [Cours](seances/14/cours_seance_14.md) | [Quiz](seances/14/quiz_seance_14.html) | [Exercices](seances/14/exercices_seance_14.md) |
+| 14 | Synthèse : signaux de pattern, intervalles, *bit manipulation* | [Cours](seances/14/cours_seance_14.md) | [Quiz](seances/14/quiz_seance_14.html) | [Exercices](seances/14/exercices_seance_14.md) |
 
 <footer class="site-footer"><a href="mailto:shuraux@he2b.be">Sylvain Huraux - HE2B - ISIB</a></footer>

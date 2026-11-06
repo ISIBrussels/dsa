@@ -1,6 +1,6 @@
 # Séance 14 — Exercices
 
-**Thème :** Synthèse et *Problem Solving* libre  
+**Thème :** Synthèse : signaux de pattern, intervalles, *bit manipulation*  
 **Langage :** Python  
 **Méthode :** Clarification → Exemples → Naïf → Optimisation → Implémentation → Validation → Bilan
 
@@ -10,18 +10,34 @@
   <a href="../../index.html">Accueil</a>
 </nav>
 
-Pour **chaque** exercice : appliquer la méthode d'entretien (7 étapes) avant de coder.
+Pour **chaque** exercice : appliquer la méthode d'entretien (7 étapes) avant de coder.  
+Identifier d'abord le **signal** de l'énoncé (sans regarder un tag thématique).
 
 ## Liste des problèmes
 
-1. **Batterie d'exercices mixtes (identification autonome du pattern)**
-2. **Débriefing collectif et revue de code**
+### Intervalles
+
+1. **Insert Interval** (Medium)
+2. **Non-overlapping Intervals** (Medium)
+3. **Meeting Rooms II** (Medium)
+
+### *Bit manipulation*
+
+4. **Single Number III** (Medium)
+5. **Sum of Two Integers** (Medium)
+6. **Counting Bits** (Easy / échauffement ciblé)
+
+### Synthèse multi-pattern (Hard)
+
+7. **Trapping Rain Water** (Hard) — *two pointers* / *monotonic stack*
+8. **LRU Cache** (Hard) — *hash table* + *doubly linked list*
 
 ## Consignes
 
 - Travailler d'abord au tableau / papier (complexité naïve puis optimale).
 - Implémenter en Python idiomatique, sans bibliothèque spécialisée hors stdlib utile (`collections`, `heapq`, `functools`, …).
 - Prévoir des tests aux limites (vide, singleton, déjà trié, doublons, …).
+- Pour les Hard : écrire explicitement le signal détecté avant de choisir le pattern.
 
 <details class="corrige">
 <summary>Corrigés</summary>

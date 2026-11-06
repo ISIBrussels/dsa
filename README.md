@@ -30,7 +30,7 @@ Dépôt du cours **Algorithmique & Structure de Données** (DSA, Master 1 Info) 
 | 11 | 3 h | *Shortest paths* |
 | 12 | 3 h | *Dynamic programming* (1/2) |
 | 13 | 3 h | *Dynamic programming* (2/2), *greedy*, backtracking |
-| 14 | 3 h | Synthèse et *Problem Solving* libre |
+| 14 | 3 h | Synthèse : signaux de pattern, intervalles, *bit manipulation* |
 
 ## Séances
 
@@ -47,7 +47,7 @@ Dépôt du cours **Algorithmique & Structure de Données** (DSA, Master 1 Info) 
 - **Séance 11 — *Shortest paths*** : [Cours](docs/seances/11/cours_seance_11.md) · [Quiz](docs/seances/11/quiz_seance_11.html) · [Exercices](docs/seances/11/exercices_seance_11.md)
 - **Séance 12 — *Dynamic programming* (1/2)** : [Cours](docs/seances/12/cours_seance_12.md) · [Quiz](docs/seances/12/quiz_seance_12.html) · [Exercices](docs/seances/12/exercices_seance_12.md)
 - **Séance 13 — *Dynamic programming* (2/2), *greedy*, backtracking** : [Cours](docs/seances/13/cours_seance_13.md) · [Quiz](docs/seances/13/quiz_seance_13.html) · [Exercices](docs/seances/13/exercices_seance_13.md)
-- **Séance 14 — Synthèse et *Problem Solving* libre** : [Cours](docs/seances/14/cours_seance_14.md) · [Quiz](docs/seances/14/quiz_seance_14.html) · [Exercices](docs/seances/14/exercices_seance_14.md)
+- **Séance 14 — Synthèse : signaux de pattern, intervalles, *bit manipulation*** : [Cours](docs/seances/14/cours_seance_14.md) · [Quiz](docs/seances/14/quiz_seance_14.html) · [Exercices](docs/seances/14/exercices_seance_14.md)
 
 ## Structure du dépôt
 
