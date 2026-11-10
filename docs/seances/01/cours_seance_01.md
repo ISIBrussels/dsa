@@ -18,16 +18,6 @@ Bloc : Fondations
 
 ---
 
-## Structure type (3 h)
-
-- ~45 min : cours magistral (concepts et rigueur)
-- ~15 min : démo live coding
-- ~2 h : exercices pratiques avec correction collective de 1–2 problèmes clés
-
-Aujourd'hui : fondations pour **tout** le reste du cours.
-
----
-
 ## Objectifs de la séance
 
 - Pourquoi la complexité : modèle de coût RAM, notations $O$, $\Omega$, $\Theta$
