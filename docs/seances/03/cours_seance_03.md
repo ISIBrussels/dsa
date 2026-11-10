@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: dsa
+theme: isib
 title: "Séance 3 — *Two pointers*, *sliding window*, *prefix sums*"
 paginate: true
 header: "DSA — Séance 3 [Sylvain Huraux - HE2B - ISIB](mailto:shuraux@he2b.be)"

@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: dsa
+theme: isib
 title: "Séance 11 — *Shortest paths*"
 paginate: true
 header: "DSA — Séance 11 [Sylvain Huraux - HE2B - ISIB](mailto:shuraux@he2b.be)"

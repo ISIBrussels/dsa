@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: dsa
+theme: isib
 title: "Séance 14 — Synthèse : signaux de pattern, intervalles, *bit manipulation*"
 paginate: true
 header: "DSA — Séance 14 [Sylvain Huraux - HE2B - ISIB](mailto:shuraux@he2b.be)"

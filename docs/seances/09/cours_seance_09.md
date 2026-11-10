@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: dsa
+theme: isib
 title: "Séance 9 — Représentations et parcours de graphes"
 paginate: true
 header: "DSA — Séance 9 [Sylvain Huraux - HE2B - ISIB](mailto:shuraux@he2b.be)"

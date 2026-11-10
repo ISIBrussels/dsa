@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: dsa
+theme: isib
 title: "Séance 13 — *Dynamic programming* (2/2), *greedy*, backtracking"
 paginate: true
 header: "DSA — Séance 13 [Sylvain Huraux - HE2B - ISIB](mailto:shuraux@he2b.be)"

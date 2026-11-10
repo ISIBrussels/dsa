@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: dsa
+theme: isib
 title: "Séance 12 — *Dynamic programming* (1/2)"
 paginate: true
 header: "DSA — Séance 12 [Sylvain Huraux - HE2B - ISIB](mailto:shuraux@he2b.be)"
