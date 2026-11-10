@@ -1,4 +1,5 @@
 themeSet:
-  - docs/themes
-theme: dsa
+  - docs/themes/isib.css
+  - docs/themes/dsa.css
+theme: isib
 html: true

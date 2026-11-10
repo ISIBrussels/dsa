@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: dsa
+theme: isib
 title: "Séance 5 — *Sorting* et recherche avancée"
 paginate: true
 header: "DSA — Séance 5 [Sylvain Huraux - HE2B - ISIB](mailto:shuraux@he2b.be)"

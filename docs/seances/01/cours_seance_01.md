@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: dsa
+theme: isib
 title: "Séance 1 — Complexité, méthode *coding interview*, tableaux et *hash*"
 paginate: true
 header: "DSA — Séance 1 [Sylvain Huraux - HE2B - ISIB](mailto:shuraux@he2b.be)"

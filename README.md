@@ -55,7 +55,7 @@ Alignée sur les dépôts `methodo-algo`, `tech-info-1` et `labo-tech-info-*` :
 
 - `docs/index.md` — page d'accueil du site GitHub Pages
 - `docs/seances/NN/` — contenu de chaque séance (`cours_seance_NN.md` Marp, quiz HTML, exercices)
-- `docs/themes/` — thème Marp
+- `docs/themes/` — thème Marp canonique `isib` (+ alias `dsa`) et `pages.css`
 - `.github/workflows/deploy.yml` — build Marp + déploiement Pages
 - `AGENTS.md` — règles du dépôt (quiz, titres, tirets)
 - `private-notes/` — notes personnelles (ignorées par git)

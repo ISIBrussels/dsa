@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: dsa
+theme: isib
 title: "Séance 7 — *BST* et équilibrage"
 paginate: true
 header: "DSA — Séance 7 [Sylvain Huraux - HE2B - ISIB](mailto:shuraux@he2b.be)"

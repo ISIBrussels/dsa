@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: dsa
+theme: isib
 title: "Séance 10 — *Topological sort* et Union-Find"
 paginate: true
 header: "DSA — Séance 10 [Sylvain Huraux - HE2B - ISIB](mailto:shuraux@he2b.be)"
