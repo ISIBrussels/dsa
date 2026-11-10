@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: isib
-title: "Séance 1 — Complexité, méthode *coding interview*, tableaux et *hash*"
+title: "Séance 1 — Complexité, tableaux et *hash*"
 paginate: true
 header: "DSA — Séance 1 [Sylvain Huraux - HE2B - ISIB](mailto:shuraux@he2b.be)"
 footer: "[← Retour à l'accueil](../../index.html)"
@@ -9,7 +9,7 @@ footer: "[← Retour à l'accueil](../../index.html)"
 
 ## Séance 1
 
-Complexité, méthode *coding interview*, tableaux et *hash*
+Complexité, tableaux et *hash*
 
 Bloc : Fondations
 
@@ -18,160 +18,90 @@ Bloc : Fondations
 
 ---
 
-## Objectifs de la séance
+## Plan du jour
 
-- Pourquoi la complexité : modèle de coût RAM, notations $O$, $\Omega$, $\Theta$
-- Analyser boucles simples et imbriquées
-- Complexité amortie (`list.append`, doublement de capacité)
-- *Hash table* : principe, collisions, moyen vs pire cas
-- Coûts cachés en Python (`pop(0)`, `x in list`, `s += ...`)
-- Appliquer la **méthode d'entretien** (7 étapes) dès le premier exercice
+1. Pourquoi un programme peut être « trop lent »
+2. Mesurer le coût : temps et mémoire
+3. Premiers outils : notations, boucles, listes Python
+4. Dictionnaires et ensembles (`dict`, `set`)
+5. Une méthode pour attaquer un exercice
+6. Démo, puis exercices
 
----
-
-## Pourquoi ce cours ?
-
-Objectif pédagogique : raisonner comme en *coding interview* (et en conception réelle).
-
-- Choisir une structure / un pattern **avant** de coder
-- Justifier temps et espace
-- Communiquer clairement sous contrainte de temps
-
-Examen oral : 25 min, façon *coding interview* (question technique de code).
+On introduit les termes **au fur et à mesure**.
 
 ---
 
-## Fil rouge : la méthode d'entretien
+## Objectifs (en français simple)
 
-Appliquée **systématiquement** à chaque exercice du cours :
+À la fin de la séance, vous pourrez :
 
-1. Clarification
-2. Exemples
-3. Approche naïve
-4. Optimisation
-5. Implémentation
-6. Validation
-7. Bilan
-
-Ce n'est pas du « théâtre » : c'est la grille d'évaluation de l'oral.
+- expliquer pourquoi on parle de **coût** d'un algorithme
+- estimer si une boucle est plutôt linéaire ou quadratique
+- savoir ce que coûtent `append`, `pop(0)`, `x in list`
+- utiliser un `dict` / `set` pour éviter de tout recalculer
+- suivre une **démarche en 7 étapes** sur un exercice
 
 ---
 
-## 1. Clarification
+## Pourquoi mesurer le coût ?
 
-Reformuler le problème **avec vos mots**.
+Deux programmes qui « marchent » ne se valent pas toujours.
+
+Exemple d'idée : pour chaque élément, reparcourir toute la liste.
+
+- Sur 10 valeurs : aucun souci
+- Sur 100 000 valeurs : ça peut devenir inutilisable
+
+On veut un langage commun pour dire : « ça croît trop vite quand $n$ augmente ».
+
+---
+
+## Deux axes : temps et espace
+
+Quand on analyse un algorithme, on regarde surtout :
+
+- le **temps** : combien de travail (opérations) pour une entrée de taille $n$
+- l'**espace** : combien de mémoire **en plus** de l'entrée
+
+On compare des **ordres de grandeur**, pas des millisecondes sur une machine précise.
+
+---
+
+## Taille de l'entrée : $n$
+
+$n$ = taille du problème (longueur d'une liste, nombre d'éléments, …).
 
 Questions utiles :
 
-- Types des entrées ? Bornes sur $n$ ?
-- Doublons autorisés ? Ordre stable attendu ?
-- Que faire si aucune solution ? Plusieurs solutions ?
-- Contraintes mémoire ? Entrée mutable ?
+- Si $n$ double, le travail double-t-il aussi ?
+- Ou est-il multiplié par 4 ? Par davantage ?
 
-Si vous codez sans clarifier, vous résolvez souvent le **mauvais** problème.
+C'est le cœur de l'analyse de complexité.
 
 ---
 
-## 2. Exemples
+## Une intuition avant les formules
 
-Dérouler 1–2 cas à la main **avant** toute idée d'algo.
+| Croissance | Idée | Exemple typique |
+| --- | --- | --- |
+| Constante | ne dépend presque pas de $n$ | lire `a[i]` |
+| Linéaire | proportionnel à $n$ | une boucle sur la liste |
+| Quadratique | proportionnel à $n^2$ | deux boucles imbriquées |
+| Logarithmique | croît très lentement | diviser $n$ par 2 à chaque fois |
 
-- Un cas « normal »
-- Un cas limite (vide, singleton, déjà trié, tous égaux…)
-
-Écrire l'entrée et la sortie attendue sur le tableau.
-
-Les exemples deviennent vos premiers tests.
-
----
-
-## 3. Approche naïve
-
-Proposer un *brute force* correct, même lent.
-
-Toujours annoncer :
-
-- idée (souvent $O(n^2)$ / $O(n!)$…)
-- complexité **temps**
-- complexité **espace**
-
-Un naïf correct + honnête vaut mieux qu'un « optimal » faux.
+Ensuite seulement : les notations $O$, $\Omega$, $\Theta$.
 
 ---
 
-## 4. Optimisation
+## Modèle de coût (idée)
 
-Chercher le **pattern** ou la structure qui coupe le coût.
+Pour compter, on fait des hypothèses simples :
 
-Questions guides :
+- lire / écrire une case mémoire : coût **constant**
+- comparer ou additionner deux entiers « machine » : coût **constant**
+- ce qui compte vraiment : les **boucles** et les parcours
 
-- Que recalcule-t-on trop souvent ?
-- Que peut-on précalculer / mémoriser (*hash*, *prefix*, …) ?
-- Faut-il de l'ordre (*sort*, *heap*) ou de l'accès $O(1)$ (*hash*) ?
-
-Nommer la famille : *two pointers*, *sliding window*, *hash table*, *DP*…
-
----
-
-## 5. Implémentation
-
-Code Python idiomatique, lisible, sans magie.
-
-- Noms clairs (`seen`, `left`, `best`)
-- Éviter les *one-liners* opaques en entretien
-- Gérer explicitement les cas limites
-
-On optimise la clarté **autant** que la constante.
-
----
-
-## 6. Validation
-
-*Dry run* sur les exemples, puis cas limites :
-
-- `[]`, `[x]`, deux éléments
-- Déjà optimal / déjà pire cas
-- Doublons, négatifs, zéros
-
-Verbaliser : « ici `i` vaut …, `seen` contient … »
-
----
-
-## 7. Bilan
-
-Clôturer à voix haute :
-
-- complexité temps finale
-- complexité espace finale
-- trade-off éventuel (plus d'espace pour moins de temps)
-- variante possible si le jury change une contrainte
-
-C'est la dernière impression de l'oral : soignez-la.
-
----
-
-## Complexité : de quoi parle-t-on ?
-
-Mesurer **comment le coût croît** avec la taille $n$ de l'entrée.
-
-On ignore les constantes machine et on compare des **ordres de grandeur**.
-
-Deux axes :
-
-- **temps** (nombre d'opérations élémentaires)
-- **espace** (mémoire auxiliaire, hors l'entrée)
-
----
-
-## Modèle de coût RAM
-
-Hypothèses de travail (assez réalistes pour l'analyse) :
-
-- accès mémoire $O(1)$
-- opérations arithmétiques / comparaisons $O(1)$ sur mots machine
-- on compte surtout les boucles et les appels
-
-En Python, certaines opérations « ressemblent » à $O(1)$ mais ne le sont pas (voir plus loin).
+Attention en Python : certaines opérations ont l'air simples mais cachent un parcours.
 
 ---
 
@@ -185,7 +115,8 @@ Pour une fonction de coût $T(n)$ :
 | $T(n) = \Omega(g(n))$ | au moins de l'ordre de $g$ (plancher) |
 | $T(n) = \Theta(g(n))$ | exactement de l'ordre de $g$ |
 
-En entretien on dit souvent « $O(n)$ » pour $\Theta(n)$ : précisez *best / average / worst* si ça change.
+En pratique on dit souvent « $O(n)$ » même quand on pense $\Theta(n)$.  
+Si le meilleur et le pire cas diffèrent, on le précise.
 
 ---
 
@@ -197,7 +128,7 @@ il existe $c > 0$ et $n_0$ tels que pour $n \ge n_0$, $|f(n)| \le c \cdot g(n)$.
 
 Conséquences :
 
-- $O(n) \subset O(n \log n) \subset O(n^2)$ (au sens large)
+- $O(n)$ est « meilleur » que $O(n^2)$ quand $n$ est grand
 - les constantes disparaissent : $3n + 100 = O(n)$
 - le terme dominant gagne : $n^2 + n = O(n^2)$
 
@@ -207,10 +138,10 @@ Conséquences :
 
 ```python
 for x in a:          # n itérations
-    s += x           # O(1)
+    s += x           # coût constant
 ```
 
-Coût : $\Theta(n)$.
+Coût : $\Theta(n)$ (linéaire).
 
 Règle : **nombre d'itérations × coût du corps** (si le corps est uniforme).
 
@@ -221,10 +152,10 @@ Règle : **nombre d'itérations × coût du corps** (si le corps est uniforme).
 ```python
 for i in range(n):
     for j in range(n):
-        ...  # O(1)
+        ...  # coût constant
 ```
 
-Coût : $\Theta(n^2)$.
+Coût : $\Theta(n^2)$ (quadratique).
 
 Variante triangulaire :
 
@@ -238,12 +169,12 @@ Toujours $\Theta(n^2)$ (somme $n + (n-1) + \cdots + 1$).
 
 ---
 
-## Boucles « qui dépendent de $i$ »
+## Boucles qui « sautent » plus vite
 
 ```python
 i = 1
 while i < n:
-    ...      # O(1)
+    ...      # coût constant
     i *= 2
 ```
 
@@ -252,22 +183,22 @@ Nombre d'itérations : $\Theta(\log n)$.
 Repères utiles :
 
 - diviser / multiplier par 2 → souvent $\log n$
-- $i$ de $1$ à $n$ avec `i += 1` → linéaire
-- deux indices qui se croisent (*two pointers*) → souvent linéaire
+- `i` de $1$ à $n$ avec `i += 1` → linéaire
+- deux indices qui se rapprochent depuis les extrémités → souvent linéaire
 
 ---
 
 ## Meilleur, moyen, pire cas
 
-Toujours préciser **sur quoi** porte le $O$ :
+Le même algorithme peut coûter différemment selon l'entrée.
 
-- pire cas (*worst case*) : ce que l'adversaire force
-- moyen (*average*) : sous un modèle d'entrées
-- meilleur (*best*) : rarement le plus utile en entretien
+- **pire cas** : la situation la plus défavorable
+- **moyen** : sous un modèle « typique » d'entrées
+- **meilleur** : rarement le plus utile pour choisir un algo
 
-Exemple : recherche dans une liste non triée
+Exemple : chercher une valeur dans une liste non triée
 
-- meilleur : $O(1)$ (élément en tête)
+- meilleur : $O(1)$ (elle est en tête)
 - pire : $O(n)$
 
 ---
@@ -278,12 +209,12 @@ On compte la mémoire **en plus** de l'entrée.
 
 | Approche | Espace typique |
 | --- | --- |
-| Indices / quelques variables | $O(1)$ |
-| Tableau / *hash* de taille $n$ | $O(n)$ |
-| Récursion profondeur $n$ | $O(n)$ (*call stack*) |
-| Copie de l'entrée | $O(n)$ (à justifier) |
+| Quelques variables | $O(1)$ |
+| Une structure de taille $n$ | $O(n)$ |
+| Beaucoup d'appels empilés (récursion) | $O(n)$ |
+| Copie complète de l'entrée | $O(n)$ (à justifier) |
 
-« In-place » ≠ toujours $O(1)$ d'espace (la pile compte).
+« Modifier sur place » n'implique pas toujours un espace $O(1)$ si la pile d'appels grossit.
 
 ---
 
@@ -296,7 +227,7 @@ En Python, `list` = tableau dynamique contigu.
 - `insert(0, x)` / `pop(0)` : $O(n)$ (décalage)
 - `x in a` : $O(n)$ (parcours)
 
-La géométrie mémoire explique presque tous les pièges.
+La disposition en mémoire explique presque tous les pièges.
 
 ---
 
@@ -326,15 +257,28 @@ Total pour $n$ `append` : $O(n)$ ⇒ amorti $O(1)$.
 
 ---
 
-## *Hash table* : idée
+## Dictionnaire et ensemble : l'idée
 
-Associer **clé → valeur** avec accès moyen $O(1)$.
+Besoin fréquent : « ai-je déjà vu cette valeur ? » ou « quelle info est liée à cette clé ? »
+
+Structures Python :
+
+- `dict` : **clé → valeur**
+- `set` : ensemble de clés (présence / absence)
+
+Derrière : une *hash table* (table de hachage).
+
+---
+
+## *Hash table* : principe
+
+Associer **clé → valeur** avec accès **moyen** $O(1)$.
 
 1. Fonction de *hash* : clé $\mapsto$ indice de seau (*bucket*)
 2. Tableau de seaux
-3. Gestion des **collisions** (chaînage ou adressage ouvert)
+3. Gestion des **collisions** (plusieurs clés au même endroit)
 
-En Python : `dict`, `set` (table de hachage).
+On retient : accès très rapide en moyenne, mémoire en $O(n)$.
 
 ---
 
@@ -343,24 +287,22 @@ En Python : `dict`, `set` (table de hachage).
 Deux clés peuvent avoir le même *hash*.
 
 - **Moyen** (bonne fonction, charge raisonnable) : $O(1)$
-- **Pire cas** (toutes les clés dans le même seau) : $O(n)$
+- **Pire cas** (tout dans le même seau) : $O(n)$
 
-En entretien : dites « $O(1)$ moyen, $O(n)$ pire cas » pour `dict` / `set`.
-
-Ne comptez pas sur le pire cas pathologique sauf question de suivi.
+Formulation utile : « $O(1)$ moyen, $O(n)$ pire cas » pour `dict` / `set`.
 
 ---
 
 ## Quand sortir un `dict` / `set` ?
 
-Signaux fréquents :
+Situations fréquentes dès aujourd'hui :
 
-- « existe-t-il un complément / un vu précédemment ? » → `set` / `dict`
-- compter des fréquences → `dict` / `Counter`
-- *anagram*, motifs sur multiset → fréquences
-- indices à retrouver plus tard → `dict` clé → index
+- détecter un doublon → `set`
+- compter des occurrences → `dict` (ou `Counter`)
+- retrouver l'indice d'une valeur déjà vue → `dict`
+- tester rapidement une présence → `set` plutôt que `x in list`
 
-Trade-off classique : **espace $O(n)$** pour gagner un facteur $n$ en temps.
+Trade-off : on paie de la **mémoire** pour gagner du **temps**.
 
 ---
 
@@ -395,14 +337,134 @@ Autres :
 
 ---
 
+## Une méthode pour résoudre un exercice
+
+Avant de coder, on suit **toujours** les mêmes 7 étapes.
+
+Objectif : ne pas se jeter sur le clavier, et pouvoir expliquer sa démarche.
+
+Les noms anglais de patterns (*sliding window*, *DP*, …) viendront plus tard dans le cours.  
+Aujourd'hui : la **démarche**.
+
+---
+
+## 1. Clarification
+
+Reformuler le problème **avec vos mots**.
+
+Questions utiles :
+
+- Que reçoit-on en entrée ? Que doit-on renvoyer ?
+- Quelles tailles sont possibles pour $n$ ?
+- Doublons autorisés ? Ordre important ?
+- Que faire s'il n'y a pas de solution ?
+
+Sans clarification, on résout souvent le **mauvais** problème.
+
+---
+
+## 2. Exemples
+
+Dérouler 1–2 cas à la main **avant** toute idée d'algo.
+
+- Un cas « normal »
+- Un cas limite (liste vide, un seul élément, déjà trié, tous égaux…)
+
+Écrire clairement l'entrée et la sortie attendue.
+
+Ces exemples deviennent vos premiers tests.
+
+---
+
+## 3. Approche naïve
+
+Proposer une solution **correcte**, même lente.
+
+Toujours dire :
+
+- l'idée (souvent : tout comparer à tout)
+- le coût en **temps**
+- le coût en **espace**
+
+Un naïf correct et honnête vaut mieux qu'un « malin » faux.
+
+---
+
+## 4. Optimisation
+
+Chercher comment éviter le travail inutile.
+
+Questions guides :
+
+- Que recalcule-t-on trop souvent ?
+- Que peut-on retenir au fur et à mesure (`dict`, `set`, variables) ?
+- Faut-il un passage, deux passages, un tri ?
+
+On nommera les familles d'algorithmes progressivement dans les prochaines séances.
+
+---
+
+## 5. Implémentation
+
+Code Python lisible, sans magie.
+
+- Noms clairs (`seen`, `best`, `left`)
+- Cas limites traités explicitement
+- Une idée = un bloc de code compréhensible
+
+La clarté compte autant que la vitesse.
+
+---
+
+## 6. Validation
+
+Rejouer les exemples à la main sur le code (*dry run*).
+
+Puis tester des limites :
+
+- `[]`, `[x]`, deux éléments
+- doublons, négatifs, zéros
+
+Dire à voix haute ce que valent les variables à chaque étape.
+
+---
+
+## 7. Bilan
+
+Terminer en résumant :
+
+- complexité temps finale
+- complexité espace finale
+- éventuel compromis (plus de mémoire pour moins de temps)
+
+Cette conclusion montre que vous maîtrisez ce que vous avez écrit.
+
+---
+
+## Lien avec l'examen oral
+
+Plus tard dans le cursus, et à l'examen, cette démarche sert de fil conducteur.
+
+L'oral (25 min) ressemble à une **question technique de code** du type *coding interview* :
+
+- clarifier
+- proposer un naïf
+- améliorer
+- coder
+- justifier le coût
+
+D'où le nom « méthode d'entretien » dans le reste du cours.
+
+---
+
 ## Démo live : *Two Sum*
 
 **Énoncé :** tableau d'entiers `nums`, cible `target`.  
 Retourner les **indices** $i, j$ tels que `nums[i] + nums[j] == target`.
 
-Méthode d'entretien (on la joue à voix haute) :
+On applique la méthode à voix haute :
 
-1. Clarifier : une seule solution ? indices distincts ? bornes ?
+1. Clarifier : une seule solution ? indices distincts ?
 2. Exemple : `nums = [2, 7, 11, 15]`, `target = 9` → `[0, 1]`
 3. Naïf : double boucle $O(n^2)$, espace $O(1)$
 
@@ -423,9 +485,10 @@ Correct, mais trop lent si $n \sim 10^5$.
 
 ---
 
-## *Two Sum* : *hash table*
+## *Two Sum* : avec un `dict`
 
-Invariant : pour l'indice `i`, on a déjà stocké les valeurs vues.
+Idée : pour chaque valeur vue, retenir son indice.  
+Quand on lit `x`, on demande si `target - x` a déjà été vu.
 
 ```python
 def two_sum(nums, target):
@@ -446,13 +509,13 @@ Temps moyen $O(n)$, espace $O(n)$.
 Tests rapides :
 
 - paire en tête / en queue / avec négatifs
-- `target` unreachable (contrat : une solution existe, ou gérer l'absence)
+- absences de solution (selon le contrat de l'énoncé)
 
-Bilan à dire :
+Bilan :
 
 - naïf $O(n^2)$ / $O(1)$
-- optimal moyen $O(n)$ / $O(n)$ grâce au `dict`
-- signal : « complément déjà vu » ⇒ *hash*
+- version `dict` : $O(n)$ moyen / $O(n)$
+- signal : « complément déjà vu » ⇒ dictionnaire
 
 ---
 
@@ -470,23 +533,23 @@ Ressources : fiche mémo Python DSA + grille d'évaluation de l'oral.
 
 ---
 
-## Signaux à reconnaître aujourd'hui
+## Repères pour aujourd'hui
 
-| Signal dans l'énoncé | Piste |
+| Situation dans l'énoncé | Piste |
 | --- | --- |
-| Doublon / présence | `set` |
-| Fréquences / *anagram* | `dict` / `Counter` |
-| Complément vers une cible | `dict` valeur → index |
-| Max / min en un passage | variable courante $O(1)$ |
-| Produits / préfixe-suffixe | deux passes, espace $O(1)$ extra possible |
+| Détecter un doublon | `set` |
+| Compter des lettres / fréquences | `dict` |
+| Retrouver un complément vers une cible | `dict` valeur → index |
+| Max / min en un seul passage | une variable |
+| Produits sans l'élément courant | deux passes (préfixe / suffixe) |
 
 ---
 
 ## Conclusion
 
-- La méthode d'entretien structure **toute** réponse (cours et oral)
-- $O$ / $\Omega$ / $\Theta$ : vocabulaire précis, pas de décoration
-- `append` amorti $O(1)$ ; méfiez-vous de `pop(0)` et `s +=`
-- `dict` / `set` : le premier levier d'optimisation sur tableaux
+- D'abord comprendre le **coût** (temps / espace, $O$)
+- Puis les outils Python (`list`, `dict`, `set`) et leurs pièges
+- Ensuite la **méthode en 7 étapes** pour structurer une solution
+- Le cadrage *coding interview* / oral vient **après** ces bases
 
 Prochaine séance : récursivité et *divide and conquer*.

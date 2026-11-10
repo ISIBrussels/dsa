@@ -17,7 +17,7 @@ Dépôt du cours **Algorithmique & Structure de Données** (DSA, Master 1 Info) 
 
 | Séance | Durée | Thème |
 | :---: | :---: | --- |
-| 1 | 3 h | Complexité, méthode *coding interview*, tableaux et *hash* |
+| 1 | 3 h | Complexité, tableaux et *hash* |
 | 2 | 3 h | Récursivité et *divide and conquer* |
 | 3 | 3 h | *Two pointers*, *sliding window*, *prefix sums* |
 | 4 | 3 h | *Linked lists*, *stacks*, *queues* |
@@ -34,7 +34,7 @@ Dépôt du cours **Algorithmique & Structure de Données** (DSA, Master 1 Info) 
 
 ## Séances
 
-- **Séance 1 — Complexité, méthode *coding interview*, tableaux et *hash*** : [Cours](docs/seances/01/cours_seance_01.md) · [Quiz](docs/seances/01/quiz_seance_01.html) · [Exercices](docs/seances/01/exercices_seance_01.md)
+- **Séance 1 — Complexité, tableaux et *hash*** : [Cours](docs/seances/01/cours_seance_01.md) · [Quiz](docs/seances/01/quiz_seance_01.html) · [Exercices](docs/seances/01/exercices_seance_01.md)
 - **Séance 2 — Récursivité et *divide and conquer*** : [Cours](docs/seances/02/cours_seance_02.md) · [Quiz](docs/seances/02/quiz_seance_02.html) · [Exercices](docs/seances/02/exercices_seance_02.md)
 - **Séance 3 — *Two pointers*, *sliding window*, *prefix sums*** : [Cours](docs/seances/03/cours_seance_03.md) · [Quiz](docs/seances/03/quiz_seance_03.html) · [Exercices](docs/seances/03/exercices_seance_03.md)
 - **Séance 4 — *Linked lists*, *stacks*, *queues*** : [Cours](docs/seances/04/cours_seance_04.md) · [Quiz](docs/seances/04/quiz_seance_04.html) · [Exercices](docs/seances/04/exercices_seance_04.md)
