@@ -31,6 +31,7 @@ Sources : `labo-info-pass` (`AGENTS.md`), commits / templates de `labo-tech-info
 
 ## Nommage des fichiers
 
-13. **Fichiers** : `cours_seance_NN.md`, `exercices_seance_NN.md`, `quiz_seance_NN.html` (underscores, pas de tiret long dans le nom de fichier). Les tirets longs (`—`) sont réservés aux **titres de pages** et en-têtes Marp.
+13. **Fichiers** : `cours_seance_NN.md`, `syllabus_seance_NN.md`, `exercices_seance_NN.md`, `quiz_seance_NN.html` (underscores, pas de tiret long dans le nom de fichier). Les tirets longs (`—`) sont réservés aux **titres de pages** et en-têtes Marp.
+14. **Onglet syllabus** — `Séance N — Syllabus` (markdown plat scrollable, même pipeline que les exercices ; même contenu que les slides, sans slide d'intro boutons).
 
-Tout nouveau `quiz_seance_*.html` / page générée doit respecter 1–7, 12 et 13 ; 8–11 dès qu'on écrit du contenu pédagogique.
+Tout nouveau `quiz_seance_*.html` / page générée doit respecter 1–7, 12–14 ; 8–11 dès qu'on écrit du contenu pédagogique.
