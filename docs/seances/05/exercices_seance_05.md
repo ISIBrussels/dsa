@@ -5,9 +5,10 @@
 **Méthode :** Clarification → Exemples → Naïf → Optimisation → Implémentation → Validation → Bilan
 
 <nav class="page-nav">
-  <a href="cours_seance_05.html">← Cours</a>
-  <a href="quiz_seance_05.html">Quiz →</a>
   <a href="../../index.html">Accueil</a>
+  <a href="cours_seance_05.html">Slides</a>
+  <a href="syllabus_seance_05.html">Syllabus</a>
+  <a href="quiz_seance_05.html">Quiz</a>
 </nav>
 
 Pour **chaque** exercice : appliquer la méthode d'entretien (7 étapes) avant de coder.
@@ -34,9 +35,10 @@ Les corrigés détaillés seront ajoutés après la séance (ou sur demande pour
 </details>
 
 <nav class="page-nav">
-  <a href="cours_seance_05.html">← Cours</a>
-  <a href="quiz_seance_05.html">Quiz →</a>
   <a href="../../index.html">Accueil</a>
+  <a href="cours_seance_05.html">Slides</a>
+  <a href="syllabus_seance_05.html">Syllabus</a>
+  <a href="quiz_seance_05.html">Quiz</a>
 </nav>
 
 <footer class="site-footer"><a href="mailto:shuraux@he2b.be">Sylvain Huraux - HE2B - ISIB</a></footer>
