@@ -4,7 +4,7 @@ theme: isib
 title: "Séance 13 — *Dynamic programming* (2/2), *greedy*, backtracking"
 paginate: true
 header: "DSA — Séance 13 [Sylvain Huraux - HE2B - ISIB](mailto:shuraux@he2b.be)"
-footer: "[← Retour à l'accueil](../../index.html)"
+footer: "[Accueil](../../index.html)"
 ---
 
 ## Séance 13
@@ -13,8 +13,8 @@ footer: "[← Retour à l'accueil](../../index.html)"
 
 Bloc : Paradigmes et synthèse
 
-[→ Quiz](quiz_seance_13.html)
-[→ Exercices](exercices_seance_13.html)
+[Quiz](quiz_seance_13.html)
+[Exercices](exercices_seance_13.html)
 
 ---
 

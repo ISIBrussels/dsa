@@ -4,7 +4,7 @@ theme: isib
 title: "Séance 3 — *Two pointers*, *sliding window*, *prefix sums*"
 paginate: true
 header: "DSA — Séance 3 [Sylvain Huraux - HE2B - ISIB](mailto:shuraux@he2b.be)"
-footer: "[← Retour à l'accueil](../../index.html)"
+footer: "[Accueil](../../index.html)"
 ---
 
 ## Séance 3
@@ -13,8 +13,8 @@ footer: "[← Retour à l'accueil](../../index.html)"
 
 Bloc : Structures linéaires et patterns
 
-[→ Quiz](quiz_seance_03.html)
-[→ Exercices](exercices_seance_03.html)
+[Quiz](quiz_seance_03.html)
+[Exercices](exercices_seance_03.html)
 
 ---
 

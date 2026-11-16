@@ -4,7 +4,7 @@ theme: isib
 title: "Séance 12 — *Dynamic programming* (1/2)"
 paginate: true
 header: "DSA — Séance 12 [Sylvain Huraux - HE2B - ISIB](mailto:shuraux@he2b.be)"
-footer: "[← Retour à l'accueil](../../index.html)"
+footer: "[Accueil](../../index.html)"
 ---
 
 ## Séance 12
@@ -13,8 +13,8 @@ footer: "[← Retour à l'accueil](../../index.html)"
 
 Bloc : Paradigmes et synthèse
 
-[→ Quiz](quiz_seance_12.html)
-[→ Exercices](exercices_seance_12.html)
+[Quiz](quiz_seance_12.html)
+[Exercices](exercices_seance_12.html)
 
 ---
 

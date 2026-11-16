@@ -4,7 +4,7 @@ theme: isib
 title: "Séance 4 — *Linked lists*, *stacks*, *queues*"
 paginate: true
 header: "DSA — Séance 4 [Sylvain Huraux - HE2B - ISIB](mailto:shuraux@he2b.be)"
-footer: "[← Retour à l'accueil](../../index.html)"
+footer: "[Accueil](../../index.html)"
 ---
 
 ## Séance 4
@@ -13,8 +13,8 @@ footer: "[← Retour à l'accueil](../../index.html)"
 
 Bloc : Structures linéaires et patterns
 
-[→ Quiz](quiz_seance_04.html)
-[→ Exercices](exercices_seance_04.html)
+[Quiz](quiz_seance_04.html)
+[Exercices](exercices_seance_04.html)
 
 ---
 

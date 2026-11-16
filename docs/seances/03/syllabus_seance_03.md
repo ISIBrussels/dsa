@@ -1,7 +1,7 @@
 # Séance 3 — *Two pointers*, *sliding window*, *prefix sums*
 
 <nav class="page-nav">
-  <a href="../../index.html">← Retour à l'accueil</a>
+  <a href="../../index.html">Accueil</a>
   <a href="cours_seance_03.html">Slides</a>
   <a href="quiz_seance_03.html">Quiz</a>
   <a href="exercices_seance_03.html">Exercices</a>
@@ -25,7 +25,7 @@ Les slides détaillés seront enrichis séance par séance.
 Appliquer la méthode d'entretien sur chaque exercice.
 
 <nav class="page-nav">
-  <a href="../../index.html">← Retour à l'accueil</a>
+  <a href="../../index.html">Accueil</a>
   <a href="cours_seance_03.html">Slides</a>
   <a href="quiz_seance_03.html">Quiz</a>
   <a href="exercices_seance_03.html">Exercices</a>

@@ -4,7 +4,7 @@ theme: isib
 title: "Séance 7 — *BST* et équilibrage"
 paginate: true
 header: "DSA — Séance 7 [Sylvain Huraux - HE2B - ISIB](mailto:shuraux@he2b.be)"
-footer: "[← Retour à l'accueil](../../index.html)"
+footer: "[Accueil](../../index.html)"
 ---
 
 ## Séance 7
@@ -13,8 +13,8 @@ footer: "[← Retour à l'accueil](../../index.html)"
 
 Bloc : Arbres et *heaps*
 
-[→ Quiz](quiz_seance_07.html)
-[→ Exercices](exercices_seance_07.html)
+[Quiz](quiz_seance_07.html)
+[Exercices](exercices_seance_07.html)
 
 ---
 

@@ -1,7 +1,7 @@
 # Séance 10 — *Topological sort* et Union-Find
 
 <nav class="page-nav">
-  <a href="../../index.html">← Retour à l'accueil</a>
+  <a href="../../index.html">Accueil</a>
   <a href="cours_seance_10.html">Slides</a>
   <a href="quiz_seance_10.html">Quiz</a>
   <a href="exercices_seance_10.html">Exercices</a>
@@ -25,7 +25,7 @@ Les slides détaillés seront enrichis séance par séance.
 Appliquer la méthode d'entretien sur chaque exercice.
 
 <nav class="page-nav">
-  <a href="../../index.html">← Retour à l'accueil</a>
+  <a href="../../index.html">Accueil</a>
   <a href="cours_seance_10.html">Slides</a>
   <a href="quiz_seance_10.html">Quiz</a>
   <a href="exercices_seance_10.html">Exercices</a>

@@ -4,7 +4,7 @@ theme: isib
 title: "Séance 10 — *Topological sort* et Union-Find"
 paginate: true
 header: "DSA — Séance 10 [Sylvain Huraux - HE2B - ISIB](mailto:shuraux@he2b.be)"
-footer: "[← Retour à l'accueil](../../index.html)"
+footer: "[Accueil](../../index.html)"
 ---
 
 ## Séance 10
@@ -13,8 +13,8 @@ footer: "[← Retour à l'accueil](../../index.html)"
 
 Bloc : Graphes
 
-[→ Quiz](quiz_seance_10.html)
-[→ Exercices](exercices_seance_10.html)
+[Quiz](quiz_seance_10.html)
+[Exercices](exercices_seance_10.html)
 
 ---
 

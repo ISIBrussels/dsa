@@ -1,7 +1,7 @@
 # Séance 7 — *BST* et équilibrage
 
 <nav class="page-nav">
-  <a href="../../index.html">← Retour à l'accueil</a>
+  <a href="../../index.html">Accueil</a>
   <a href="cours_seance_07.html">Slides</a>
   <a href="quiz_seance_07.html">Quiz</a>
   <a href="exercices_seance_07.html">Exercices</a>
@@ -27,7 +27,7 @@ Les slides détaillés seront enrichis séance par séance.
 Appliquer la méthode d'entretien sur chaque exercice.
 
 <nav class="page-nav">
-  <a href="../../index.html">← Retour à l'accueil</a>
+  <a href="../../index.html">Accueil</a>
   <a href="cours_seance_07.html">Slides</a>
   <a href="quiz_seance_07.html">Quiz</a>
   <a href="exercices_seance_07.html">Exercices</a>
