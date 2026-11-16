@@ -1,7 +1,7 @@
 # Séance 1 — Complexité, tableaux et *hash*
 
 <nav class="page-nav">
-  <a href="../../index.html">← Retour à l'accueil</a>
+  <a href="../../index.html">Accueil</a>
   <a href="cours_seance_01.html">Slides</a>
   <a href="quiz_seance_01.html">Quiz</a>
   <a href="exercices_seance_01.html">Exercices</a>
@@ -468,7 +468,7 @@ Ressources : fiche mémo Python DSA + grille d'évaluation de l'oral.
 Prochaine séance : récursivité et *divide and conquer*.
 
 <nav class="page-nav">
-  <a href="../../index.html">← Retour à l'accueil</a>
+  <a href="../../index.html">Accueil</a>
   <a href="cours_seance_01.html">Slides</a>
   <a href="quiz_seance_01.html">Quiz</a>
   <a href="exercices_seance_01.html">Exercices</a>

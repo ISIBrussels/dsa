@@ -4,7 +4,7 @@ theme: isib
 title: "Séance 8 — *Heaps*, *priority queues*, Tries"
 paginate: true
 header: "DSA — Séance 8 [Sylvain Huraux - HE2B - ISIB](mailto:shuraux@he2b.be)"
-footer: "[← Retour à l'accueil](../../index.html)"
+footer: "[Accueil](../../index.html)"
 ---
 
 ## Séance 8
@@ -13,8 +13,8 @@ footer: "[← Retour à l'accueil](../../index.html)"
 
 Bloc : Arbres et *heaps*
 
-[→ Quiz](quiz_seance_08.html)
-[→ Exercices](exercices_seance_08.html)
+[Quiz](quiz_seance_08.html)
+[Exercices](exercices_seance_08.html)
 
 ---
 

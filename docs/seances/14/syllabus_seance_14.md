@@ -1,7 +1,7 @@
 # Séance 14 — Synthèse : signaux de pattern, intervalles, *bit manipulation*
 
 <nav class="page-nav">
-  <a href="../../index.html">← Retour à l'accueil</a>
+  <a href="../../index.html">Accueil</a>
   <a href="cours_seance_14.html">Slides</a>
   <a href="quiz_seance_14.html">Quiz</a>
   <a href="exercices_seance_14.html">Exercices</a>
@@ -94,7 +94,7 @@ Réviser la grille de signaux avant l'oral.
 Appliquer la méthode d'entretien sur chaque exercice.
 
 <nav class="page-nav">
-  <a href="../../index.html">← Retour à l'accueil</a>
+  <a href="../../index.html">Accueil</a>
   <a href="cours_seance_14.html">Slides</a>
   <a href="quiz_seance_14.html">Quiz</a>
   <a href="exercices_seance_14.html">Exercices</a>

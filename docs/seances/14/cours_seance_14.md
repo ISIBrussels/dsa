@@ -4,7 +4,7 @@ theme: isib
 title: "Séance 14 — Synthèse : signaux de pattern, intervalles, *bit manipulation*"
 paginate: true
 header: "DSA — Séance 14 [Sylvain Huraux - HE2B - ISIB](mailto:shuraux@he2b.be)"
-footer: "[← Retour à l'accueil](../../index.html)"
+footer: "[Accueil](../../index.html)"
 ---
 
 ## Séance 14
@@ -13,8 +13,8 @@ Synthèse : signaux de pattern, intervalles, *bit manipulation*
 
 Bloc : Paradigmes et synthèse
 
-[→ Quiz](quiz_seance_14.html)
-[→ Exercices](exercices_seance_14.html)
+[Quiz](quiz_seance_14.html)
+[Exercices](exercices_seance_14.html)
 
 ---
 
